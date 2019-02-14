@@ -1,0 +1,6 @@
+0x30350437	lui x8 197456	lui s0, 197456
+0x80200493	addi x9 x0 -2046	addi s1, x0, -2046
+0x02941433	mulh x8 x8 x9	mulh s0, s0, s1
+0x02802423	sw x8 40(x0)	sw s0, 40(x0)
+0x02802083	lw x1 40(x0)	lw ra, 40(x0)
+0x02901283	lh x5 41(x0)	lh t0, 41(x0)

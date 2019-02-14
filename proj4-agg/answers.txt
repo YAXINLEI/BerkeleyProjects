@@ -1,0 +1,32 @@
+
+QUESTION 1
+
+CONV_L1        : 3421.106   ms / 41.91%    
+RELU_L1        : 37.758     ms / 0.46%     
+POOL_L1        : 94.687     ms / 1.16%     
+CONV_L2        : 3552.361   ms / 43.52%    
+RELU_L2        : 25.134     ms / 0.31%     
+POOL_L2        : 30.258     ms / 0.37%     
+CONV_L3        : 984.982    ms / 12.07%    
+RELU_L3        : 0.951      ms / 0.01%     
+POOL_L3        : 7.259      ms / 0.09%     
+FC_L1          : 6.547      ms / 0.08%     
+SOFTMAX_L1     : 0.806      ms / 0.01%     
+
+QUESTION 2
+
+CONV           : 97.50%    
+RELU           : 0.78%     
+POOL           : 1.62%     
+FC             : 0.08%     
+SOFTMAX        : 0.01%     
+
+QUESTION 3
+
+CONV           : 3.72x
+RELU           : 1.01x
+POOL           : 1.01x
+FC             : 1.00x
+SOFTMAX        : 1.00x
+
+Layer we should optimize: CONV

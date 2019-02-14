@@ -1,0 +1,5 @@
+v2.0 raw
+0x80100293	addi x5 x0 -2047	addi t0, x0, -2047
+0x007ee337	lui x6 2030	lui t1, 2030
+0x026294b3	mulh x9 x5 x6	mulh s1, t0, t1
+0x02628933	mul x18 x5 x6	mul s2, t0, t1
